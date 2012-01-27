@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Donna\Desktop\CodingExercise\ATPBlog\ATPBlog\tests\ATPBlog.Tests\bin\Debug\ATPBlog.Tests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-01-24" time="16:49:06">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="MP-E1705" user="Donna" user-domain="MP-E1705" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Donna\Desktop\CodingExercise\ATPBlog\ATPBlog\tests\ATPBlog.Tests\bin\Debug\ATPBlog.Tests.dll" executed="True" result="Success" success="True" time="9.783" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="9.764" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="ATPBlog" executed="True" result="Success" success="True" time="9.763" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Data" executed="True" result="Success" success="True" time="9.763" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="NHibernateMaps" executed="True" result="Success" success="True" time="9.763" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="MappingIntegrationTests" executed="True" result="Success" success="True" time="9.759" asserts="0">
+                        <categories>
+                          <category name="DB Tests" />
+                        </categories>
+                        <results>
+                          <test-case name="Tests.ATPBlog.Data.NHibernateMaps.MappingIntegrationTests.CanGenerateDatabaseSchema" executed="True" result="Success" success="True" time="9.741" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

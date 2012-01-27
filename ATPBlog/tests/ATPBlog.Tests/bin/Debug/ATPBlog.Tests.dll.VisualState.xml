@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1002]Tests.ATPBlog.Data.NHibernateMaps.MappingIntegrationTests.CanGenerateDatabaseSchema</TopNode>
+  <SelectedNode>[0-1002]Tests.ATPBlog.Data.NHibernateMaps.MappingIntegrationTests.CanGenerateDatabaseSchema</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1005]C:\Users\Donna\Desktop\CodingExercise\ATPBlog\ATPBlog\tests\ATPBlog.Tests\bin\Debug\ATPBlog.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]Tests" Expanded="true" />
+    <Node UniqueName="[0-1007]Tests.ATPBlog" Expanded="true" />
+    <Node UniqueName="[0-1010]Tests.ATPBlog.Controllers" Expanded="true" />
+    <Node UniqueName="[0-1003]Tests.ATPBlog.Controllers.RouteRegistrarTests" Expanded="true" />
+    <Node UniqueName="[0-1008]Tests.ATPBlog.Data" Expanded="true" />
+    <Node UniqueName="[0-1009]Tests.ATPBlog.Data.NHibernateMaps" Expanded="true" />
+    <Node UniqueName="[0-1000]Tests.ATPBlog.Data.NHibernateMaps.MappingIntegrationTests" Expanded="true" />
+  </Nodes>
+</VisualState>

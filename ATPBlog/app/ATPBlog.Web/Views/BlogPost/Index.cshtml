@@ -1,0 +1,53 @@
+﻿@using ATPBlog.Web
+@using System.Linq
+@using ATPBlog.Web.Controllers
+@model IEnumerable<ATPBlog.Core.BlogPost>
+@{
+    ViewBag.Title = "Index";
+}
+<h2 id="header">
+    Answer to Exercise</h2>
+@foreach (var post in Model)
+{
+    <div class="post">
+        <div class="blogContent">
+            @Html.DisplayFor(modelItem => post.Content)
+        </div>
+        <div class="datePosted">
+            @Html.DisplayFor(modelItem => post.DateCreated)
+        </div>
+        <div class="removeContent">
+            <span class="removePost" id="removePost@(post.Id)">Remove</span>
+        </div>
+        <div class="clear">
+        </div>
+        <hr />
+    </div>
+}
+<div id="newPost">
+    <div class="messageLabel">
+        <p>
+            Share what's on your mind.<br />
+            (Maximum of 200 characters.)</p>
+    </div>
+    <div class="buttonArea">
+        <input type="button" value="Add Entry" id="createPost" /></div>
+    <div class="newMessage">
+        @Html.TextArea("blogContent", new { @id = "blogContent" })
+        <div id="remainingCharacters">
+        </div>
+        <div id="errorMessage" class="input-validation-error">
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var deletePostUrl = '@Url.Action("Delete", "BlogPost")';
+    var createPostUrl = '@Url.Action("Create", "BlogPost")';
+
+    $(document).ready(function () {
+        setformfieldsize($('#blogContent'), 200, 'remainingCharacters')
+        initializeContents();
+        initializeActionCalls();
+    })
+   
+</script>
